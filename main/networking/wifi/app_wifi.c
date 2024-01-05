@@ -302,7 +302,7 @@ esp_err_t app_wifi_start( app_wifi_pop_type_t pop_type )
             .scheme_event_handler    = WIFI_PROV_SCHEME_BLE_EVENT_HANDLER_FREE_BTDM
         #else /* CONFIG_APP_WIFI_PROV_TRANSPORT_SOFTAP */
                .scheme_event_handler = WIFI_PROV_EVENT_HANDLER_NONE,
-                                       #endif /* CONFIG_APP_WIFI_PROV_TRANSPORT_BLE */
+        #endif /* CONFIG_APP_WIFI_PROV_TRANSPORT_BLE */
     };
 
     /* Initialize provisioning manager with the

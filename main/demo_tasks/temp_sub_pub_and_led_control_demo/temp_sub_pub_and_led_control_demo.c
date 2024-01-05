@@ -329,10 +329,12 @@ static void prvParseIncomingPublish( char * publishPayload,
         if( state == 1 )
         {
             app_driver_led_on();
+			ESP_LOGW( TAG, "Led ON");
         }
         else if( state == 0 )
         {
             app_driver_led_off();
+			ESP_LOGW( TAG, "Led OFF");
         }
     }
     else

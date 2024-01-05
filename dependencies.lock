@@ -1,0 +1,27 @@
+dependencies:
+  espressif/cbor:
+    component_hash: 440f4ee4504841cc9b4f3a8ef755776a612ac9dace355514c68b999868f990ff
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 0.6.0~1
+  espressif/esp_secure_cert_mgr:
+    component_hash: a20007d67e65a000670ab77e45d7554c943eb8dcb0abeada0a57dd9adac3a703
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.4.1
+  espressif/led_strip:
+    component_hash: ed1d5c6113fa545e20c7be17e6e7c09d43b18fcb43068e2b2b27a412de6a405a
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 2.5.2
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.3.0
+manifest_hash: 564a80930152bfb7d51bb4e687522ee4aadc95243b98ff67d1295691b5aa300e
+target: esp32c3
+version: 1.0.0

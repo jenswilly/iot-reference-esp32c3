@@ -1,3 +1,26 @@
 {
-    "idf.adapterTargetName": "esp32c3"
+	"files.associations": {
+		"*.ejs": "html",
+		"*.h": "c"
+	},
+	"idf.pythonBinPath": "/Users/jenswilly/.espressif/python_env/idf5.3_py3.8_env/bin/python",
+	"idf.espIdfPath": "/Users/jenswilly/Electronics_local/esp/esp-idf",
+	"idf.customExtraPaths": "/Users/jenswilly/Electronics_local/esp/esp-idf/components/espcoredump:/Users/jenswilly/Electronics_local/esp/esp-idf/components/partition_table:/Users/jenswilly/Electronics_local/esp/esp-idf/components/app_update:/Users/jenswilly/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/jenswilly/.espressif/tools/riscv32-esp-elf-gdb/12.1_20221002/riscv32-esp-elf-gdb/bin:/Users/jenswilly/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/Users/jenswilly/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin:/Users/jenswilly/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/jenswilly/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/Users/jenswilly/.espressif/python_env/idf5.3_py3.8_env/bin:/Users/jenswilly/Electronics_local/esp/esp-idf/tools:/Users/jenswilly/.nvm/versions/node/v18.13.0/bin:/Users/jenswilly/.rbenv/shims:/Users/jenswilly/google-cloud-sdk/bin:/Users/jenswilly/miniconda3/bin:/Users/jenswilly/miniconda3/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/Users/jenswilly/.cargo/bin:/Users/jenswilly/Library/Android/sdk/emulator:/Users/jenswilly/Library/Android/sdk/platform-tools",
+	"idf.adapterTargetName": "esp32c3",
+	"idf.port": "/dev/cu.usbserial-1440",
+	"idf.flashType": "UART",
+	"idf.customExtraVars": {
+		"OPENOCD_SCRIPTS": "/Users/jenswilly/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+		"ESP_ROM_ELF_DIR": "/Users/jenswilly/.espressif/tools/esp-rom-elfs/20230320/",
+		"IDF_PYTHON_ENV_PATH": "/Users/jenswilly/.espressif/python_env/idf5.3_py3.8_env",
+		"ESP_IDF_VERSION": "5.3",
+		"IDF_TOOLS_EXPORT_CMD": "/Users/jenswilly/Electronics_local/esp/esp-idf/export.sh",
+		"IDF_TOOLS_INSTALL_CMD": "/Users/jenswilly/Electronics_local/esp/esp-idf/install.sh"
+	},
+	"idf.openOcdConfigs": [
+		"board/esp32c3-bridge.cfg"
+	],
+	"C_Cpp.intelliSenseEngine": "default",
+	"C_Cpp.default.configurationProvider": "espressif.esp-idf",
+	"C_Cpp.inactiveRegionOpacity": 0.4,
 }
